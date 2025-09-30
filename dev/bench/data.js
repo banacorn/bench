@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759206721693,
+  "lastUpdate": 1759226081397,
   "repoUrl": "https://github.com/WisdomRoot/pqcim",
   "entries": {
     "Benchmark": [
@@ -23,6 +23,50 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/WisdomRoot/pqcim/commit/8488cb0c4fe6669e101d0aa94c13b5ef80c892bb"
         },
         "date": 1759206721414,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "segmented_lut_modular_multiplier_WNS",
+            "value": 8.999,
+            "unit": "ns"
+          },
+          {
+            "name": "ntt_input_adapter_WNS",
+            "value": 9.0913,
+            "unit": "ns"
+          },
+          {
+            "name": "cfg_adapter_WNS",
+            "value": 9.2492,
+            "unit": "ns"
+          },
+          {
+            "name": "axi_stream_skid_buffer_WNS",
+            "value": 9.6729,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "committer": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "distinct": true,
+          "id": "6f413a8f5a739ab88146ec87a9eaa27a4bf35ebf",
+          "message": "[ fix ] Make sure that pygpi is properly installed before doing cycle counts",
+          "timestamp": "2025-09-30T16:57:27+08:00",
+          "tree_id": "7ba91f66fa1740941e73cefb03714881e89b0edd",
+          "url": "https://github.com/WisdomRoot/pqcim/commit/6f413a8f5a739ab88146ec87a9eaa27a4bf35ebf"
+        },
+        "date": 1759226081105,
         "tool": "customBiggerIsBetter",
         "benches": [
           {
