@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759394433224,
+  "lastUpdate": 1759396324716,
   "repoUrl": "https://github.com/WisdomRoot/pqcim",
   "entries": {
     "Benchmark": [
@@ -307,6 +307,55 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/WisdomRoot/pqcim/commit/cca5dbb0e5b1161513f519e7a42a3be91b4471aa"
         },
         "date": 1759394432759,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "modular_arithmetic_element_WNS",
+            "value": 8.7792,
+            "unit": "ns"
+          },
+          {
+            "name": "segmented_lut_modular_multiplier_WNS",
+            "value": 8.999,
+            "unit": "ns"
+          },
+          {
+            "name": "ntt_input_adapter_WNS",
+            "value": 9.0913,
+            "unit": "ns"
+          },
+          {
+            "name": "cfg_adapter_WNS",
+            "value": 9.2492,
+            "unit": "ns"
+          },
+          {
+            "name": "axi_stream_skid_buffer_WNS",
+            "value": 9.6729,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "committer": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "distinct": true,
+          "id": "c21e45e41fb87b2d9349cf995c7cedc47208af37",
+          "message": "[ change ] Replace `synthesis/lib/setup_nangate45.sh` with `scripts/setup_nangate45.py`",
+          "timestamp": "2025-10-02T16:54:49+08:00",
+          "tree_id": "3f20c2377b699f33b3d8e59fa295615adfd814fc",
+          "url": "https://github.com/WisdomRoot/pqcim/commit/c21e45e41fb87b2d9349cf995c7cedc47208af37"
+        },
+        "date": 1759396324488,
         "tool": "customBiggerIsBetter",
         "benches": [
           {
