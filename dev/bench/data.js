@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759392029612,
+  "lastUpdate": 1759393209754,
   "repoUrl": "https://github.com/WisdomRoot/pqcim",
   "entries": {
     "Benchmark": [
@@ -209,6 +209,55 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/WisdomRoot/pqcim/commit/583f872f1ca7ab4061d633a8d8ef40bf947aa27b"
         },
         "date": 1759392029053,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "modular_arithmetic_element_WNS",
+            "value": 8.7792,
+            "unit": "ns"
+          },
+          {
+            "name": "segmented_lut_modular_multiplier_WNS",
+            "value": 8.999,
+            "unit": "ns"
+          },
+          {
+            "name": "ntt_input_adapter_WNS",
+            "value": 9.0913,
+            "unit": "ns"
+          },
+          {
+            "name": "cfg_adapter_WNS",
+            "value": 9.2492,
+            "unit": "ns"
+          },
+          {
+            "name": "axi_stream_skid_buffer_WNS",
+            "value": 9.6729,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "committer": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "distinct": true,
+          "id": "cca5dbb0e5b1161513f519e7a42a3be91b4471aa",
+          "message": "[ CI ] See if we cache Nix store",
+          "timestamp": "2025-10-02T16:02:38+08:00",
+          "tree_id": "129b61b2cb3a050522b76e4163bdcb373f50a9a6",
+          "url": "https://github.com/WisdomRoot/pqcim/commit/cca5dbb0e5b1161513f519e7a42a3be91b4471aa"
+        },
+        "date": 1759393209510,
         "tool": "customBiggerIsBetter",
         "benches": [
           {
