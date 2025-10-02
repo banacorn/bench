@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759384351429,
+  "lastUpdate": 1759392029612,
   "repoUrl": "https://github.com/WisdomRoot/pqcim",
   "entries": {
     "Benchmark": [
@@ -160,6 +160,55 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/WisdomRoot/pqcim/commit/d2c98f48630042d01eda1534bdaee179124925ac"
         },
         "date": 1759384351157,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "modular_arithmetic_element_WNS",
+            "value": 8.7792,
+            "unit": "ns"
+          },
+          {
+            "name": "segmented_lut_modular_multiplier_WNS",
+            "value": 8.999,
+            "unit": "ns"
+          },
+          {
+            "name": "ntt_input_adapter_WNS",
+            "value": 9.0913,
+            "unit": "ns"
+          },
+          {
+            "name": "cfg_adapter_WNS",
+            "value": 9.2492,
+            "unit": "ns"
+          },
+          {
+            "name": "axi_stream_skid_buffer_WNS",
+            "value": 9.6729,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "committer": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "distinct": true,
+          "id": "583f872f1ca7ab4061d633a8d8ef40bf947aa27b",
+          "message": "[ change ] CI cleanup",
+          "timestamp": "2025-10-02T15:46:42+08:00",
+          "tree_id": "97f87f8f4c0b5a3271e074a29839d8d9764cf803",
+          "url": "https://github.com/WisdomRoot/pqcim/commit/583f872f1ca7ab4061d633a8d8ef40bf947aa27b"
+        },
+        "date": 1759392029053,
         "tool": "customBiggerIsBetter",
         "benches": [
           {
