@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759476816532,
+  "lastUpdate": 1759483215731,
   "repoUrl": "https://github.com/WisdomRoot/pqcim",
   "entries": {
     "Benchmark": [
@@ -405,6 +405,55 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/WisdomRoot/pqcim/commit/a00419c879198388680382d38f182d6375c4e7aa"
         },
         "date": 1759476816233,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "modular_arithmetic_element_WNS",
+            "value": 8.7792,
+            "unit": "ns"
+          },
+          {
+            "name": "segmented_lut_modular_multiplier_WNS",
+            "value": 8.999,
+            "unit": "ns"
+          },
+          {
+            "name": "ntt_input_adapter_WNS",
+            "value": 9.0913,
+            "unit": "ns"
+          },
+          {
+            "name": "cfg_adapter_WNS",
+            "value": 9.2492,
+            "unit": "ns"
+          },
+          {
+            "name": "axi_stream_skid_buffer_WNS",
+            "value": 9.6729,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "committer": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "distinct": true,
+          "id": "a7be539fbf808fdd0c0d0533c9f7590cd1754ccd",
+          "message": "[ doc ] Document the usage of cycle counting config in the global default config",
+          "timestamp": "2025-10-03T17:07:25+08:00",
+          "tree_id": "e0c9ba73180813c54f674183bd2ce8d992a7102d",
+          "url": "https://github.com/WisdomRoot/pqcim/commit/a7be539fbf808fdd0c0d0533c9f7590cd1754ccd"
+        },
+        "date": 1759483215355,
         "tool": "customBiggerIsBetter",
         "benches": [
           {
