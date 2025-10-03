@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759396324716,
+  "lastUpdate": 1759476816532,
   "repoUrl": "https://github.com/WisdomRoot/pqcim",
   "entries": {
     "Benchmark": [
@@ -356,6 +356,55 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/WisdomRoot/pqcim/commit/c21e45e41fb87b2d9349cf995c7cedc47208af37"
         },
         "date": 1759396324488,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "modular_arithmetic_element_WNS",
+            "value": 8.7792,
+            "unit": "ns"
+          },
+          {
+            "name": "segmented_lut_modular_multiplier_WNS",
+            "value": 8.999,
+            "unit": "ns"
+          },
+          {
+            "name": "ntt_input_adapter_WNS",
+            "value": 9.0913,
+            "unit": "ns"
+          },
+          {
+            "name": "cfg_adapter_WNS",
+            "value": 9.2492,
+            "unit": "ns"
+          },
+          {
+            "name": "axi_stream_skid_buffer_WNS",
+            "value": 9.6729,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "committer": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "distinct": true,
+          "id": "a00419c879198388680382d38f182d6375c4e7aa",
+          "message": "[ change ] Place all cycle counting stuff at cocotb/tests/common/cycle_runner.py",
+          "timestamp": "2025-10-03T15:20:54+08:00",
+          "tree_id": "ff3eee03783eec5961330ed70a8ea0ef63a439a9",
+          "url": "https://github.com/WisdomRoot/pqcim/commit/a00419c879198388680382d38f182d6375c4e7aa"
+        },
+        "date": 1759476816233,
         "tool": "customBiggerIsBetter",
         "benches": [
           {
