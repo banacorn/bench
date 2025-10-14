@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759992321474,
+  "lastUpdate": 1760434031429,
   "repoUrl": "https://github.com/WisdomRoot/pqcim",
   "entries": {
     "Benchmark": [
@@ -552,6 +552,65 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/WisdomRoot/pqcim/commit/cb5d4d92796df925fd05dcc7f1986355a235b2b4"
         },
         "date": 1759992321265,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "modular_arithmetic_element_WNS",
+            "value": 7.9522,
+            "unit": "ns"
+          },
+          {
+            "name": "cfg_adapter_WNS",
+            "value": 8.7135,
+            "unit": "ns"
+          },
+          {
+            "name": "segmented_lut_modular_multiplier_WNS",
+            "value": 9.0157,
+            "unit": "ns"
+          },
+          {
+            "name": "input_adapter_WNS",
+            "value": 9.1735,
+            "unit": "ns"
+          },
+          {
+            "name": "twiddle_memory_WNS",
+            "value": 9.4154,
+            "unit": "ns"
+          },
+          {
+            "name": "sram_dual_port_WNS",
+            "value": 9.5107,
+            "unit": "ns"
+          },
+          {
+            "name": "sram_one_port_WNS",
+            "value": 9.5823,
+            "unit": "ns"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "committer": {
+            "email": "banacorn@gmail.com",
+            "name": "Ting-Gian LUA",
+            "username": "banacorn"
+          },
+          "distinct": true,
+          "id": "acce221ce483df4f390d72b93569b39297c51cbc",
+          "message": "[ new ] Add NAND-gate equivalent counting to `pq gate`",
+          "timestamp": "2025-10-14T15:34:23+08:00",
+          "tree_id": "cd83aa26ffc344e1ae640007bf6594d75b60fa71",
+          "url": "https://github.com/WisdomRoot/pqcim/commit/acce221ce483df4f390d72b93569b39297c51cbc"
+        },
+        "date": 1760434030981,
         "tool": "customBiggerIsBetter",
         "benches": [
           {
